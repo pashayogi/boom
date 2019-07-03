@@ -1,0 +1,232 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# w bom mampod lo
+
+white='\033[1;37m'
+red='\033[1;31m'
+green='\033[1;32m'
+blue='\033[1;34m'
+cyan='\033[1;36m'
+
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying to stop the tools ... "
+sleep 1
+echo ""
+echo -e $green"[#]> Thanks for using my tools ... "
+sleep 1
+echo ""
+echo -e $cyan"[#]> by MR.K7C8NG[•]ICES[•]... "
+cd ..
+./start
+read enter
+exit
+}
+
+
+clear
+echo $me"starting tools... /";
+sleep 0.5;
+clear
+echo $ku'Starting tools... -';
+sleep 0.5;
+clear
+echo $i'sTarting tools... \';
+sleep 0.5;
+clear
+echo $me"stArting tools... /";
+sleep 0.5;
+clear
+echo 'staRting tools... -';
+sleep 0.1;
+clear
+echo 'starTing tools... \';
+sleep 0.1;
+clear
+echo "startIng tools... /";
+sleep 0.1;
+clear
+echo "startiNg tools... -";
+sleep 0.1;
+clear
+echo 'startinG tools... \';
+sleep 0.1;
+clear
+echo 'starting Tools... -';
+sleep 0.1;
+clear
+echo "starting tOols... /";                                                                                           sleep 0.1;
+clear
+echo 'staRting tools... -';
+sleep 0.1;
+clear
+echo 'starTing tools... \';
+sleep 0.1;
+clear
+echo "startIng tools... /";
+sleep 0.1;
+clear
+echo "startiNg tools... -";
+sleep 0.1;
+clear
+echo 'startinG tools... \';
+sleep 0.1;
+clear
+echo 'starting Tools... -';
+sleep 0.1;
+clear
+echo "starting tOols... /";
+sleep 0.1;
+clear
+echo 'starting toOls... -';
+sleep 0.1;
+clear
+echo "starting tools... /";
+sleep 0.1;
+clear
+echo 'Starting tools... -';
+sleep 0.1;
+clear
+echo 'sTarting tools... \';
+sleep 0.1;
+clear
+echo "stArting tools... /";
+sleep 0.1;
+clear
+echo 'staRting tools... -';
+sleep 0.1;
+clear
+echo 'starTing tools... \';
+sleep 0.1;
+clear
+echo "startIng tools... /";
+sleep 0.1;
+clear
+echo "SABAR MEMEK -";
+sleep 0.4;
+clear
+echo 'SABAR NJING!... \';
+sleep 1;
+clear
+echo 'starting Tools... -';
+sleep 0.1;
+clear
+echo "starting tOols... /";
+sleep 0.1;
+clear                                            
+apt update -y && apt upgrade -y
+clear
+sleep 1
+echo -e $red"╔╗ ╔═╗╔╦╗ ╔═╗╔╦╗╔═╗"; 
+echo -e $red"╠╩╗║ ║║║║ ╚═╗║║║╚═╗"; 
+echo -e $red"╚═╝╚═╝╩ ╩ ╚═╝╩ ╩╚═╝"; 
+echo -e $green"Tools by MR.K7C8NG";
+echo -e $white"";
+sleep 0.500
+echo "1) Bom TELKOMSEL";
+sleep 0.500
+echo "2) Bom TSEL-APPS";
+sleep 0.500
+echo "3) Bom JD.id";
+sleep 0.500
+echo "4) Bom Phd Order";
+sleep 0.500
+echo "5) Bom Grab";
+sleep 0.500
+echo "6) Tokped Call only";
+sleep 0.500
+echo "7) Bom Tri";
+sleep 0.500
+echo "8) Exit";
+sleep 1
+echo "";
+read -p "MR.K7C8NG[•]ICES[•]=> " act;
+
+if [ $act = 1 ] || [ $act = 1 ]
+then
+pkg install php -y
+clear
+php 1.php
+cd ..
+fi
+
+if [ $act = 2 ] || [ $act = 2 ]
+then
+pkg install php -y
+clear
+php 2.php
+cd ..
+fi
+
+if [ $act = 3 ] || [ $act = 3 ]
+then
+pkg install php -y
+clear
+php 3.php
+cd ..
+fi
+
+if [ $act = 4 ] || [ $act = 4 ]
+then
+pkg install php -y
+clear
+php 4.php
+cd ..
+fi
+
+if [ $act = 5 ] || [ $act = 5 ]
+then
+pkg install python2 -y
+pip2 install requests
+chmod +x spammer.py
+clear
+echo -e $red"=====================★★★★★★=====================";
+echo "| Ketik 'python2 spammer.py (nomor target)'    |";
+echo "| Contoh: python2 spammer.py 628xxx            |";
+echo "| Jika ingin mengubah jeda tambahkan           |";
+echo "| '--delay(spasi)detik'                        |";
+echo "| Contoh: python2 spammer.py --delay 30 628xxx |";
+echo "================================================";
+echo -e $green"Tekan Enter";
+read enter
+exit
+fi
+
+if [ $act = 6 ] || [ $act = 6 ]
+then
+pkg install php -y
+clear
+php 6.php
+cd ..
+fi
+
+if [ $act = 8 ] || [ $act = 8 ]
+then
+echo -e $red'untuk kamu para pemula'
+sleep 1
+echo -e $red'jangan berhenti mencari ilmu'
+sleep 2
+echo -e $red'karna mencari topik lebih susah'
+sleep 1
+echo -e $red'(╥_╥)'
+sleep 1
+echo -e $red'dan jika lu punya pacar'
+sleep 1
+echo -e $red'sayangi lah dia'
+sleep 1
+echo -e $red'sekian dari saya'
+sleep 0.500
+echo -e $cyan'MR.K7C8NG '
+sleep 0.250
+echo -e $cyan'instagram pranata_pasha'
+sleep 0.75
+exit
+fi
+
+if [ $act = 7 ] || [ $act = 7 ]
+then
+pkg install php -y
+clear
+php 5.php
+cd ..
+fi
